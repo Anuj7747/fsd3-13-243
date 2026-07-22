@@ -1,6 +1,11 @@
 function sayHello(name) {
-    console.log(`welcome to ${name}`);
+    console.log(`Hello ${name}`);
 }
-const sayhi=
-sayHello('Anuj')
-console.log('sum of 2 and 5 is ${sum(2+5)}');
+const sayHi = (name) => {
+    console.log(`Hi ${name}`);
+}
+sayHello("John Doe");
+function sum(a, b) {
+    return a + b;1
+}   
+console.log(sum(5, 10));
