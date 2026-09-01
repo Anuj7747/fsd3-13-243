@@ -8,4 +8,4 @@ import { akdir} from "fs/promises";
 
 // await mkdir("image/profile/logos",{ recursive: true});
 // console.log("all folder created");
-await 
+awai
