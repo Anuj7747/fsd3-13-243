@@ -77,3 +77,8 @@ Header is used to tell the client, the type of data send by the server it may be
 5.application/form-data -> for uploading files
 6.application/auth ->for tokens
 the headers can be set by res object at server side by two ways
+
+Get --  no parameter  will pass to the server when we recive all items
+post -- to add record we pass the value from body section in json formate of api tester(echo api)
+delete -- to delete any product we pass parameter that is the id of the product from url 
+update -- (put/patch) --to update any product we pass id from url and data to update from body
