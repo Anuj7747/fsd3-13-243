@@ -17,3 +17,17 @@
 
 The `send()` function is used to send content back to the client. The content can be HTML, JSON, an HTML file, or plain text.
 We can also set the HTTP status code using the `status()` function. It can be chained with the `send()` function.
+
+
+## Map
+this function is used to iterate any array it must return new array
+'''
+array.map((item)=>{
+    return
+})
+array.map((item)=>())
+'''
+in 1 syntax we have to used explixit return keyword where as in syntax 2 is not reqired
+exclude no of property from any json object
+## search 
+to search any item in json array we used find method it will retun null on unsccefull or object on on succesfull
